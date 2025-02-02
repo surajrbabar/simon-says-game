@@ -1,11 +1,15 @@
+//Two arrays to track user inputs ans random colors generated
 let gameSeq = [];
 let userSeq = [];
 
+//started variable to indicate whether game was stared or not
 let started = false;
+//Level indicate current level
 let level = 0;
 let highestScore = 0;
 let highScore = document.querySelector(".highScore");
 
+//To map the colors with randomly generated indices from 0 - 3
 let btns = ["red", "blue", "orange", "green"];
 
 let heading = document.querySelector("h2");
